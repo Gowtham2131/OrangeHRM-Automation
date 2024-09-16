@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.OpenHRM.base.Base">
+        <methods>
+          <include name="teardown"/>
+          <include name="Before"/>
+          <include name="pim"/>
+        </methods>
+      </class> <!-- com.OpenHRM.base.Base -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Login with second user page test(failed)">
+    <classes>
+      <class name="com.OpenHRM.base.AddEmployee">
+        <methods>
+          <include name="CreateUserid"/>
+        </methods>
+      </class> <!-- com.OpenHRM.base.AddEmployee -->
+    </classes>
+  </test> <!-- Login with second user page test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
