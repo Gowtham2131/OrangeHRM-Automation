@@ -5,20 +5,12 @@
     <classes>
       <class name="com.OpenHRM.base.Base">
         <methods>
+          <include name="VerifyPage"/>
           <include name="teardown"/>
           <include name="Before"/>
-          <include name="pim"/>
+          <include name="LoginDetail"/>
         </methods>
       </class> <!-- com.OpenHRM.base.Base -->
     </classes>
   </test> <!-- Test(failed) -->
-  <test thread-count="5" name="Login with second user page test(failed)">
-    <classes>
-      <class name="com.OpenHRM.base.AddEmployee">
-        <methods>
-          <include name="CreateUserid"/>
-        </methods>
-      </class> <!-- com.OpenHRM.base.AddEmployee -->
-    </classes>
-  </test> <!-- Login with second user page test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,12 +5,9 @@
     <classes>
       <class name="com.OpenHRM.base.Base">
         <methods>
-          <include name="VerifyPage"/>
           <include name="teardown"/>
           <include name="Before"/>
           <include name="AddEmploye"/>
-          <include name="EmployeeDetails"/>
-          <include name="LoginDetail"/>
           <include name="CreateUser"/>
         </methods>
       </class> <!-- com.OpenHRM.base.Base -->

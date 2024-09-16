@@ -7,11 +7,7 @@
     <classes>
       <class name="com.OpenHRM.base.Base"/>
       
-    </classes>
-  </test> <!-- Test -->
-  <test name="Login with second user page test">
-        <classes>
-            <class name="com.OpenHRM.base.LoginSecoundAccount"/>
+   
         </classes>
         </test> <!-- Test -->
 </suite> <!-- Suite -->

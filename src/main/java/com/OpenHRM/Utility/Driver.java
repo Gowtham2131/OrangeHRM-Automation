@@ -22,11 +22,11 @@ public class Driver {
 		
 		if(ReadConfig.proper.getProperty("Browser").equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driver=new ChromeDriver();
+	        driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}else if(ReadConfig.proper.getProperty("Browser").equalsIgnoreCase("Edge")) {
 			
-			System.setProperty("webdriver.edge.driver", "C:\\Users\\Msi\\Downloads\\edgedriver_win64 (2)\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "C:\\Users\\Msi\\Downloads\\edgedriver_win64 (3)\\msedgedriver.exe");
 			driver = new EdgeDriver();
 			driver.manage().window().maximize();
 			Thread.sleep(5000);

@@ -67,4 +67,4 @@ public class Login extends ReadConfig {
 		logoutButton.click();
 	}
 	
-	 
+}	 
